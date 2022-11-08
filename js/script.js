@@ -7,7 +7,7 @@ function init(){
   }
 
   // This is the button
-  var button=document.getElementById('entrybutton');
+  var button = document.getElementById("entrybutton");
   button.addEventListener("click",updateText);
 
 }

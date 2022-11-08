@@ -1,9 +1,9 @@
 function init(){
   //add your javascript between these two lines of code
   function alertFunction(){
-    input = document.getElementById('entryinput')
+    var input = document.getElementById('entryinput').value;
+	document.getElementById('textoutput').innerHTML = input;
     alert('Rabia Ahmed: ' + inputForm.value)
-    document.getElementById('textoutput').innerHTML = input.value;
   }
 
   // This is the button

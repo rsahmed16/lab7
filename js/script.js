@@ -1,14 +1,11 @@
 function init(){
-  //add your javascript between these two lines of code
-  function alertFunction(){
+  function alertMe(){
     var input = document.getElementById('entryinput').value;
 	document.getElementById('textoutput').innerHTML = input;
-    alert('Rabia Ahmed: ' + inputForm.value)
+	alert('Rabia Sajjad Ahmed: ' + input);
   }
-
-  // This is the button
-  var button = document.getElementById("entrybutton");
-  button.addEventListener("click",updateText);
-
+  
+  var button = document.getElementById('entrybutton');
+  button.addEventListener('click', alertMe);
 }
 window.addEventListener('load', init);
